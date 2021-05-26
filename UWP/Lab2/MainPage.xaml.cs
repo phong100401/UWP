@@ -45,12 +45,6 @@ namespace Lab2
             SV.IsPaneOpen = !SV.IsPaneOpen;
         }
 
-        private void ListUsers_Loaded(object sender, RoutedEventArgs e)
-        {
-            //User u1 = new User("abc@gmail.com", "abc", "dasdasdasd");
-            //User u2 = new User("acs@gmail.com", "adc", "aqeasdasd");
-            //ListUsers.Items.Add(u1);
-            //ListUsers.Items.Add(u2);
-        }
+       
     }
 }
