@@ -34,7 +34,7 @@ namespace Lab2
             string content = inputContent.Text;
 
             TxtBlockEmail.Text = "Đã gửi đến: " + email;
-            TxtBlockSubject.Text = "Chủ đề thư: " + title;
+            TxtBlockTitle.Text = "Chủ đề thư: " + title;
             TxtBlockContent.Text = "Nội dung thư:\n" + content;
 
             User u1 = new User(email,title, content);
