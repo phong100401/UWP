@@ -47,7 +47,7 @@
                     </Grid>
                 </SplitView.Pane>
                 <ScrollViewer Margin="10">
-                    <ListView x:Name="ListUsers" Loaded="ListUsers_Loaded">
+                    <ListView x:Name="ListUsers">
                         <ListView.Header>
                             <TextBlock Text="Danh sách người nhận thư" />
                         </ListView.Header>
